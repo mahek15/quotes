@@ -1,0 +1,50 @@
+.eachCard{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+.card{
+  background-color: black;
+  width: 450px;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.quote_name {
+  font-size: 1.5rem;
+  color: bisque;
+  margin-bottom: 5px;
+}
+.author {
+  font-size: 1rem;
+  color: bisque;
+}
+.btn {
+  display: block;
+  border: 2px solid ;
+  background: transparent;
+  padding: 10px 15px;
+  color:rgb(203, 170, 121);
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: rgb(203, 170, 121);
+  color: black;
+  box-shadow: 0 8px 16px 0 rgba(21, 21, 14, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
