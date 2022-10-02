@@ -3,14 +3,15 @@
   margin: auto;
   margin-top: 7%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-template-columns:repeat(auto-fit, 20rem);
+  grid-template-rows: auto;
   justify-content: center;
 }
 .card{
   background-color: black;
-  width: 450px;
+  margin-right: 2rem;
   border-radius: 10px;
-  padding: 50px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
